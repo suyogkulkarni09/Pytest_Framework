@@ -1,0 +1,59 @@
+01/30/2024 05:11:51 PM -  INFO - Sending Get Request/
+01/30/2024 05:11:51 PM -  INFO - Complete URL/
+01/30/2024 05:11:51 PM -  INFO - https://petstore.swagger.io/v2/pet/findByStatus/
+01/30/2024 05:11:52 PM -  INFO - Response Code is/
+01/30/2024 05:11:52 PM -  INFO - 200/
+01/30/2024 05:11:52 PM -  INFO - Response Body is/
+01/30/2024 05:11:52 PM -  INFO - [{"id":12345,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":456,"category":{"id":-44805340,"name":"ipsum Duis ex"},"name":"Bertha.Jacobson64","photoUrls":["in officia ipsum ut","ad in aute"],"tags":[{"id":45738002,"name":"nisi amet in Duis"},{"id":-38746427,"name":"nisi laboris et pariatur"}],"status":"sold"},{"id":131,"category":{"id":0,"name":"Dragon"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":617530,"category":{"id":623618,"name":"sabre"},"name":"puppy2","photoUrls":["string"],"tags":[{"id":678887,"name":"sohan"}],"status":"sold"},{"id":9223372036854771000,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854773014,"category":{"id":0,"name":"string"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":777,"category":{"id":888,"name":"This is my new category"},"name":"This is my new pet","tags":[],"status":"sold"},{"id":9223372036854772000,"name":"Perica","photoUrls":[],"tags":[],"status":"sold"}]/
+01/30/2024 05:11:52 PM -  INFO - Sending Post Request/
+01/30/2024 05:11:52 PM -  INFO - Complete URL/
+01/30/2024 05:11:52 PM -  INFO - https://petstore.swagger.io/v2/pet/
+01/30/2024 05:11:52 PM -  INFO - Request  body is set to = {'id': 4576348224, 'category': {'id': 226453, 'name': 'tfxled'}, 'name': 'icpntohy', 'photoUrls': ['https://6Dh53rfNPvmz/AQ6U'], 'tags': [{'id': 9362, 'name': 'twxr'}], 'status': 'available'}/
+01/30/2024 05:11:53 PM -  INFO - Response Code is/
+01/30/2024 05:11:53 PM -  INFO - 200/
+01/30/2024 05:11:53 PM -  INFO - Response Body is/
+01/30/2024 05:11:53 PM -  INFO - {"id":4576348224,"category":{"id":226453,"name":"tfxled"},"name":"icpntohy","photoUrls":["https://6Dh53rfNPvmz/AQ6U"],"tags":[{"id":9362,"name":"twxr"}],"status":"available"}/
+01/30/2024 05:50:48 PM -  INFO - Sending Get Request/
+01/30/2024 05:50:48 PM -  INFO - Complete URL/
+01/30/2024 05:50:48 PM -  INFO - https://petstore.swagger.io/v2/pet/findByStatus/
+01/30/2024 05:50:49 PM -  INFO - Response Code is/
+01/30/2024 05:50:49 PM -  INFO - 200/
+01/30/2024 05:50:49 PM -  INFO - Response Body is/
+01/30/2024 05:50:49 PM -  INFO - Sending Post Request/
+01/30/2024 05:50:49 PM -  INFO - Complete URL/
+01/30/2024 05:50:49 PM -  INFO - https://petstore.swagger.io/v2/pet/
+01/30/2024 05:50:49 PM -  INFO - Request  body is set to = {'id': 5675246552, 'category': {'id': 855445, 'name': 'cqqlcc'}, 'name': 'ifyxhsdk', 'photoUrls': ['https://uLdDmMZr8RJ4/jpx3'], 'tags': [{'id': 7673, 'name': 'xvne'}], 'status': 'available'}/
+01/30/2024 05:50:49 PM -  INFO - Response Code is/
+01/30/2024 05:50:49 PM -  INFO - 200/
+01/30/2024 05:50:49 PM -  INFO - Response Body is/
+01/30/2024 05:50:49 PM -  INFO - {"id":5675246552,"category":{"id":855445,"name":"cqqlcc"},"name":"ifyxhsdk","photoUrls":["https://uLdDmMZr8RJ4/jpx3"],"tags":[{"id":7673,"name":"xvne"}],"status":"available"}/
+01/30/2024 05:54:01 PM -  INFO - Sending Get Request/
+01/30/2024 05:54:01 PM -  INFO - Complete URL/
+01/30/2024 05:54:01 PM -  INFO - https://petstore.swagger.io/v2/pet/findByStatus/
+01/30/2024 05:54:05 PM -  INFO - Response Code is/
+01/30/2024 05:54:05 PM -  INFO - 200/
+01/30/2024 05:54:05 PM -  INFO - Response Body is/
+01/30/2024 05:54:05 PM -  INFO - Sending Post Request/
+01/30/2024 05:54:05 PM -  INFO - Complete URL/
+01/30/2024 05:54:05 PM -  INFO - https://petstore.swagger.io/v2/pet/
+01/30/2024 05:54:05 PM -  INFO - Request  body is set to = {'id': 1594018177, 'category': {'id': 620455, 'name': 'egexti'}, 'name': 'ggyahzmg', 'photoUrls': ['https://BiiRK5pjHPAa/MtU2'], 'tags': [{'id': 9274, 'name': 'pkbk'}], 'status': 'available'}/
+01/30/2024 05:54:05 PM -  INFO - Response Code is/
+01/30/2024 05:54:05 PM -  INFO - 200/
+01/30/2024 05:54:05 PM -  INFO - Response Body is/
+01/30/2024 05:54:05 PM -  INFO - {"id":1594018177,"category":{"id":620455,"name":"egexti"},"name":"ggyahzmg","photoUrls":["https://BiiRK5pjHPAa/MtU2"],"tags":[{"id":9274,"name":"pkbk"}],"status":"available"}/
+01/30/2024 06:01:23 PM -  INFO - Sending Post Request/
+01/30/2024 06:01:23 PM -  INFO - Complete URL/
+01/30/2024 06:01:23 PM -  INFO - https://petstore.swagger.io/v2/pet/
+01/30/2024 06:01:23 PM -  INFO - Request  body is set to = {'id': 6758043743, 'category': {'id': 40158, 'name': 'dvvfwc'}, 'name': 'zayknypz', 'photoUrls': ['https://hrutOhHMXzke/RGY8'], 'tags': [{'id': 5480, 'name': 'olul'}], 'status': 'available'}/
+01/30/2024 06:01:23 PM -  INFO - Response Code is/
+01/30/2024 06:01:23 PM -  INFO - 200/
+01/30/2024 06:01:23 PM -  INFO - Response Body is/
+01/30/2024 06:01:23 PM -  INFO - {"id":6758043743,"category":{"id":40158,"name":"dvvfwc"},"name":"zayknypz","photoUrls":["https://hrutOhHMXzke/RGY8"],"tags":[{"id":5480,"name":"olul"}],"status":"available"}/
+04/12/2024 04:07:31 PM -  INFO - Sending Post Request/
+04/12/2024 04:07:31 PM -  INFO - Complete URL/
+04/12/2024 04:07:31 PM -  INFO - https://petstore.swagger.io/v2/pet/
+04/12/2024 04:07:31 PM -  INFO - Request  body is set to = {'id': 1568134, 'category': {'id': 410103, 'name': 'nzkoje'}, 'name': 'sspvhlnz', 'photoUrls': ['https://qK6kMXyD4bJX/IEAy'], 'tags': [{'id': 8900, 'name': 'hgdp'}], 'status': 'available'}/
+04/12/2024 04:07:43 PM -  INFO - Response Code is/
+04/12/2024 04:07:43 PM -  INFO - 200/
+04/12/2024 04:07:43 PM -  INFO - Response Body is/
+04/12/2024 04:07:43 PM -  INFO - {"id":1568134,"category":{"id":410103,"name":"nzkoje"},"name":"sspvhlnz","photoUrls":["https://qK6kMXyD4bJX/IEAy"],"tags":[{"id":8900,"name":"hgdp"}],"status":"available"}/

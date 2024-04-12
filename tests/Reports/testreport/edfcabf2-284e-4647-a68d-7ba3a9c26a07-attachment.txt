@@ -1,0 +1,74 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\veerendra_k\AppData\Local\Programs\Python\Python37-32\lib\logging\__init__.py", line 1028, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\veerendra_k\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 173-176: character maps to <undefined>
+Call stack:
+  File "C:/Program Files/JetBrains/PyCharm Community Edition 2023.3/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py", line 60, in <module>
+    sys.exit(pytest.main(args, plugins_to_load + [Plugin]))
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\config\__init__.py", line 170, in main
+    config=config
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\main.py", line 350, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 114, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 262, in call_runtest_hook
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\pluggy\_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\.venv\lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\tests\test_demo.py", line 10, in test_find_pets_by_status
+    response = pet_store.find_pets_by_status(status)
+  File "C:\Users\veerendra_k\PycharmProjects\pythonProject\apilayer\apiclient.py", line 32, in find_pets_by_status
+    self.log.info(response.text)
+Message: '[{"id":9223372036854772000,"name":"Perica","photoUrls":[],"tags":[],"status":"sold"},{"id":4441,"category":{"id":0,"name":"string"},"name":"Лаки","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":123,"category":{"id":1,"name":"dsa"},"name":"Andzej","photoUrls":["dasdas"],"tags":[{"id":1,"name":"dsadas"}],"status":"sold"}]'
+Arguments: ()

@@ -1,0 +1,8 @@
+INFO     PetStoreApiClient:apiclient.py:48 Sending Post Request
+INFO     PetStoreApiClient:apiclient.py:49 Complete URL
+INFO     PetStoreApiClient:apiclient.py:51 https://petstore.swagger.io/v2/pet
+INFO     PetStoreApiClient:apiclient.py:70 Request  body is set to = {'id': 4576348224, 'category': {'id': 226453, 'name': 'tfxled'}, 'name': 'icpntohy', 'photoUrls': ['https://6Dh53rfNPvmz/AQ6U'], 'tags': [{'id': 9362, 'name': 'twxr'}], 'status': 'available'}
+INFO     PetStoreApiClient:apiclient.py:73 Response Code is
+INFO     PetStoreApiClient:apiclient.py:74 200
+INFO     PetStoreApiClient:apiclient.py:75 Response Body is
+INFO     PetStoreApiClient:apiclient.py:76 {"id":4576348224,"category":{"id":226453,"name":"tfxled"},"name":"icpntohy","photoUrls":["https://6Dh53rfNPvmz/AQ6U"],"tags":[{"id":9362,"name":"twxr"}],"status":"available"}

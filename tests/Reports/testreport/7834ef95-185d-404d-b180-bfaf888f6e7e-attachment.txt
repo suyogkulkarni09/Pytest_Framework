@@ -1,0 +1,8 @@
+INFO     PetStoreApiClient:apiclient.py:49 Sending Post Request
+INFO     PetStoreApiClient:apiclient.py:50 Complete URL
+INFO     PetStoreApiClient:apiclient.py:52 https://petstore.swagger.io/v2/pet
+INFO     PetStoreApiClient:apiclient.py:71 Request  body is set to = {'id': 1594018177, 'category': {'id': 620455, 'name': 'egexti'}, 'name': 'ggyahzmg', 'photoUrls': ['https://BiiRK5pjHPAa/MtU2'], 'tags': [{'id': 9274, 'name': 'pkbk'}], 'status': 'available'}
+INFO     PetStoreApiClient:apiclient.py:74 Response Code is
+INFO     PetStoreApiClient:apiclient.py:75 200
+INFO     PetStoreApiClient:apiclient.py:76 Response Body is
+INFO     PetStoreApiClient:apiclient.py:77 {"id":1594018177,"category":{"id":620455,"name":"egexti"},"name":"ggyahzmg","photoUrls":["https://BiiRK5pjHPAa/MtU2"],"tags":[{"id":9274,"name":"pkbk"}],"status":"available"}

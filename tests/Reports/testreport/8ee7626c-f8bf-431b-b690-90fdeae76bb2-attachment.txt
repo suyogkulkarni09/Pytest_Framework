@@ -1,0 +1,7 @@
+INFO     PetStoreApiClient:apiclient.py:22 Sending Get Request
+INFO     PetStoreApiClient:apiclient.py:23 Complete URL
+INFO     PetStoreApiClient:apiclient.py:25 https://petstore.swagger.io/v2/pet/findByStatus
+INFO     PetStoreApiClient:apiclient.py:29 Response Code is
+INFO     PetStoreApiClient:apiclient.py:30 200
+INFO     PetStoreApiClient:apiclient.py:31 Response Body is
+INFO     PetStoreApiClient:apiclient.py:32 [{"id":4441,"category":{"id":0,"name":"string"},"name":"Лаки","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":123,"category":{"id":1,"name":"dsa"},"name":"Andzej","photoUrls":["dasdas"],"tags":[{"id":1,"name":"dsadas"}],"status":"sold"}]

@@ -1,0 +1,3 @@
+{'id': 6758043743, 'category': {'id': 40158, 'name': 'dvvfwc'}, 'name': 'zayknypz', 'photoUrls': ['https://hrutOhHMXzke/RGY8'], 'tags': [{'id': 5480, 'name': 'olul'}], 'status': 'available'}
+Response is
+{'id': 6758043743, 'category': {'id': 40158, 'name': 'dvvfwc'}, 'name': 'zayknypz', 'photoUrls': ['https://hrutOhHMXzke/RGY8'], 'tags': [{'id': 5480, 'name': 'olul'}], 'status': 'available'}
